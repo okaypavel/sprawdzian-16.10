@@ -33,7 +33,7 @@
     margin-top: 30px;
 }
 .bg-img{
-    background-image: url(../sprawdzian-16.10/img/lew.jpeg);
+    background-image: url(./img/lew.jpeg);
     height: 300px;
     width: 300px;
     background-position: center;
@@ -91,7 +91,6 @@ img {
     color: #007bff;
     margin: 0 auto;
     font-size: 2rem;
-    width: 350px;
     text-align: center;
 }
 .icon-kontakt:hover{
