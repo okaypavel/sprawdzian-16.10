@@ -17,7 +17,7 @@
     color: white;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     font-size: 1.2rem;
 }
 .nav-text:hover{
@@ -34,12 +34,12 @@
 }
 .bg-img{
     background-image: url(../sprawdzian-16.10/img/lew.jpeg);
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
     background-position: center;
     background-size: cover;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 50px;
     margin: 0 auto;
 }
 .text-p-lorem{
@@ -75,26 +75,44 @@ img {
         transform: scale(1.3);
     }
 }
-/* .button {
-    border: auto;
-    border-color: #007bff;
-    background-color: white;
+.button {
+    border: 2px solid #007bff;
+    text-align: center;
     color: #007bff;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    width: 250px;
+    margin: 0 auto;
+    border-color: #007bff;
+    font-size: 1.6rem;
+    background-color: white;
+    display: block;
     margin-top: 15px;
-    cursor: pointer;
-    text-align: center;
-    margin-left: auto;
-} */
+}
 .icon-kontakt{
     color: #007bff;
-    text-align: center;
+    margin: 0 auto;
     font-size: 2rem;
+    width: 350px;
+    text-align: center;
+}
+.icon-kontakt:hover{
+    color: red;
 }
 .icon{
     padding: 20px;
+}
+.border-main{
+    border-bottom: 2px solid #007bff;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.border{
+    border-style: solid;
+    border: 7px #007bff;
+    text-align: center;
+    color: #007bff;
+    width: 250px;
+    margin: 0 auto;
+    border-color: #007bff;
+    font-size: 1.6rem;
 }
